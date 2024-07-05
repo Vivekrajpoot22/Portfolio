@@ -1,6 +1,6 @@
 import React from "react";
-import java from "../../public/java.png";
-import python from "../../public/python.webp";
+import css from "../../public/css.jpg";
+import html from "../../public/html.png";
 import mongoDB from "../../public/mongodb.jpg";
 import express from "../../public/express.png";
 import reactjs from "../../public/reactjs.png";
@@ -29,13 +29,13 @@ function PortFolio() {
     },
     {
       id: 5,
-      logo: python,
-      name: "Python",
+      logo: css,
+      name: "CSS",
     },
     {
       id: 6,
-      logo: java,
-      name: "Java",
+      logo: html,
+      name: "HTML",
     },
   ];
   return (

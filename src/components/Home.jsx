@@ -1,12 +1,9 @@
 import React from "react";
-
 import pic from "../../public/photo.avif";
-
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io";
-import { FaTelegram } from "react-icons/fa6";
-
+import { FaInstagram } from "react-icons/fa6";
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
@@ -37,11 +34,10 @@ function Home() {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Quisquam, recusandae consequatur. Accusamus sint libero eligendi
-              laborum fuga repudiandae? Asperiores tempore eos animi dolores
-              corrupti! Sint quos, mollitia architecto aliquam nesciunt, optio
-              cum delectus sit voluptatum aut ratione quaerat veniam aperiam!
+              "Meet friends, i am passionate web developer with a knack for creating
+              dynamic and responsive websites. With a strong foundation in
+              modern web technologies, I am brings innovative solutions to life
+              on the web."!
             </p>
             <br />
             {/* social media icons */}
@@ -50,12 +46,12 @@ function Home() {
                 <h1 className="font-bold text-center ">Available on</h1>
                 <ul className="flex space-x-5">
                   <li>
-                    <a href="https://www.facebook.com/" target="_blank">
+                    <a href="https://www.facebook.com/profile.php?id=100014582088418" target="_blank">
                       <FaSquareFacebook className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
+                    <a href="https://www.linkedin.com/in/vivek-rajpoot-0145b2243/" target="_blank">
                       <FaLinkedin className="text-2xl cursor-pointer" />
                     </a>
                   </li>
@@ -65,8 +61,8 @@ function Home() {
                     </a>
                   </li>
                   <li>
-                    <a href="https://t.me/" target="_blank">
-                      <FaTelegram className="text-2xl cursor-pointer" />
+                    <a href="https://www.instagram.com/mr.vivek_rajpoot_22/" target="_blank">
+                      <FaInstagram className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                 </ul>
